@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+
+.profile-image {
+    width: 400px;
+    height: auto;
+    border-radius: 3%;
+  }
+
+body {
+    font-family: 'Raleway', 'Courier New', Courier, monospace;
+    background-color: #242424;
+}
