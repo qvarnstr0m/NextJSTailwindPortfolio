@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
+body {
+  font-family: 'Raleway', 'Courier New', Courier, monospace;
+  background-color: #242424;
+  color: #d6d4d4;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:after {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1;
+  display: none;
+}
+
+
 
 
 .profile-image {
@@ -8,7 +36,26 @@
     border-radius: 3%;
   }
 
-body {
-    font-family: 'Raleway', 'Courier New', Courier, monospace;
-    background-color: #242424;
+.github-icon {
+  height: 23px;
+  float: right;
+  margin-left: 15px;
+}
+
+.github-events {
+  display: flex;
+}
+
+li {
+  border: 1px solid #d6d4d4;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 40px;
 }
