@@ -2,6 +2,7 @@ import NavBar from '/components/NavBar';
 import Me from '/components/Me';
 import Footer from '/components/Footer';
 import Github from '/components/Github';
+import Projects from 'components/Projects';
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
     </div>
     <div className="flex-grow mt-16">
       <Github />
+    </div>
+    <div className="flex-grow mt-16">
+      <Projects />
     </div>
     <div className="mt-auto">
       <Footer />
