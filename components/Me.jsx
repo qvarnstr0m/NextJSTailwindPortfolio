@@ -9,7 +9,7 @@ const Me = () => {
         been working on learning developing different kind of applications, mainly using the .NET platform but also recently looking 
         at front end and JavaScript. <br /><br />I am currently studying at Campus Varberg, a two year program which focus on the .NET platform 
         and courses on agile work methods, front end-development and database creation and administration. <br /><br /> 💥 Currently looking for 
-        a internship for the fall of 2023, feel free to contact me if this sounds interesting to you or anyone you may know! 💥
+        a internship for the fall of 2023, feel free to <a href="mailto:mqvarnstrom80@gmail.com?subject=Hello!">contact me</a> if this sounds interesting to you or anyone you may know! 💥
       </p>
       </div>
       <div className="sm:flex-col shrink-0 sm:ml-auto sm:order-1">
