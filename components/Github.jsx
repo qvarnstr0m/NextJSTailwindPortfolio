@@ -8,7 +8,7 @@ const Github = () => {
       <a href="https://github.com/qvarnstr0m" target="_blank" rel="noopener noreferrer" title="Visit my Github">
       What am i up to?
       </a>
-      <img src="github.png" class="github-icon" />
+      <img src="github.png" className="github-icon" />
       </h3>
       <div className="w-full md:w-1/3">
         <GithubEventsComponent username="qvarnstr0m"/>

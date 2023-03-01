@@ -63,6 +63,15 @@ export async function getStaticProps() {
                 name
                 description
                 url
+                repositoryTopics(first: 10) {
+                  edges {
+                    node {
+                      topic {
+                        name
+                      }
+                    }
+                  }
+                }
               }
             }
           }
@@ -72,7 +81,7 @@ export async function getStaticProps() {
   });
   
   const pinnedItems = data.viewer.pinnedItems.edges;
-  
+  console.log(pinnedItems);
   return {
     props: {
       pinnedItems

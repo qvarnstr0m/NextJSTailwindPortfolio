@@ -8,7 +8,7 @@ const Projects = ({ pinnedItems }) => {
     <a href="https://github.com/qvarnstr0m" target="_blank" rel="noopener noreferrer" title="Visit my Github">
     Featured projects
     </a>
-    <img src="github.png" class="github-icon" />
+    <img src="star.png" class="github-icon" />
     </h3>
     <div className="w-full md:w-1/3">
       <ul>
@@ -20,6 +20,12 @@ const Projects = ({ pinnedItems }) => {
             <p>
               {item.node.description}
             </p>
+            <div className="text-xs text-gray-500">
+              Topics:
+              {item.node.repositoryTopics.edges.map((topic) => (
+              <span key={topic.node.id} className="text-xs text-gray-500">&#32;{topic.node.topic.name}</span>
+              ))}
+            </div>
           </li>
         ))
 
