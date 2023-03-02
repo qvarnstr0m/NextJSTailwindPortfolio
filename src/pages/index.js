@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import NavBar from '/components/NavBar';
 import Me from '/components/Me';
 import Footer from '/components/Footer';
@@ -8,25 +9,32 @@ import { setContext } from '@apollo/client/link/context';
 
 
 export default function Home({ pinnedItems }) {
-  return (
-    
-    <div className="px-4 sm:px-10 md:px-20 lg:px-30 xl:px-50 2xl:px-60 py-10 min-h-screen">
+  return ( 
     <div>
-      <NavBar />
-    </div>
-    <div className="flex-grow mt-16">
-      <Me />
-    </div>
-    <div className="flex-grow mt-16">
+      <Head>
+        <title>Martin Qvarnström</title>
+        <meta name="description" content=".NET C# JS Developer" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      <div className="px-4 sm:px-10 md:px-20 lg:px-40 xl:px-50 2xl:px-80 py-10 min-h-screen">
+      <div>
+        <NavBar />
+      </div>
+      <div className="flex-grow mt-16">
+        <Me />
+      </div>
+      <div className="flex-grow mt-16">
+        <Projects pinnedItems = {pinnedItems} />
+      </div>
+      <div className="flex-grow mt-16">
       <Github />
+      </div>
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </div>
-    <div className="flex-grow mt-16">
-      <Projects pinnedItems = {pinnedItems} />
     </div>
-    <div className="mt-auto">
-      <Footer />
-    </div>
-  </div>
+
   )
 }
 
@@ -81,7 +89,6 @@ export async function getStaticProps() {
   });
   
   const pinnedItems = data.viewer.pinnedItems.edges;
-  console.log(pinnedItems);
   return {
     props: {
       pinnedItems

@@ -76,6 +76,7 @@ class GithubEvents {
     
         const li = document.createElement('li');
         li.classList.add('text-left');
+        li.classList.add('li-events');
 
         li.innerHTML = `
           <span class="font-bold">${eventType} ${eventDescription} 
