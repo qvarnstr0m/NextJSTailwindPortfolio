@@ -6,8 +6,7 @@ Live: [https://next-js-tailwind-portfolio-iota.vercel.app/](https://next-js-tail
 + Introduction  
 + Features  
 + Tech stack
-+ Run locally  
-+ Run on server  
++ Deployment & Running
   
 ### Introduction  
   This is my personal webpage / portfolio, build with React / Next.js and tailwind css. I have tried to keep a simple and clean design that is responsive and mobile friendly. It has two dynamic features that uses the Github REST API to fetch my latest Github events and the Github GraphQL API to fetch my pinned repositories. I have also tried to make it accessable in regards to color choices and fonts.
@@ -20,7 +19,7 @@ Live: [https://next-js-tailwind-portfolio-iota.vercel.app/](https://next-js-tail
 ### Tech stack  
   + React / Next.js
   + Tailwind css
-  + HTML / CSS
+  + HTML + CSS
   + JavaScript
   + Deployment on Vercel
   + Apollo & GraphQL dependencie  
