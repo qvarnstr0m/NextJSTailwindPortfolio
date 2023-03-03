@@ -6,7 +6,7 @@ const Me = () => {
       <div className="sm:flex-col shrink-0 sm:ml-auto sm:order-1">
         <img src="me.jpg" alt="Profile image" className="profile-image md:max-w-xs lg:max-w-sm"/>
       </div>
-      <div className="lg:max-w-md mt-10">
+      <div className="lg:max-w-md">
       <p className="text-justify">
         A problem-solving coder at heart with a passion for clear communication and clean code. For the last couple of years I have 
         been working on learning developing different kind of applications, mainly using the .NET platform but also recently looking 
