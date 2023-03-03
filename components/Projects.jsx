@@ -4,7 +4,7 @@ import React from 'react';
 const Projects = ({ pinnedItems }) => {
   return (
     <div className="flex flex-wrap w-full md:justify-between md:items-start">
-    <h3 className="text-2xl mr-2 github-link mb-6 justify-start sm:sticky sm:top-0">
+    <h3 className="text-2xl mr-2 github-link mb-6 justify-start sm:sticky sm:top-12">
     <a href="https://github.com/qvarnstr0m" target="_blank" rel="noopener noreferrer"  title="These are my pinned projects on Github. Visit my profile if you are interested
     in my other personal / school projects and contributions to open source.">
       Featured projects
