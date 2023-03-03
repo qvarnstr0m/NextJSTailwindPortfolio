@@ -9,7 +9,7 @@ const Me = () => {
       <div className="lg:max-w-md mt-12 sm:mt-0">
       <p className="text-justify">
         A problem-solving coder at heart with a passion for clear communication and learning new tech. For the last couple of years I have 
-        been working on learning developing different kinds of applications, mainly using the .NET platform but also recently looking 
+        been working on learning to develop different kinds of applications, mainly using the .NET platform but also recently looking 
         at front end and JavaScript. <br /><br />I am currently studying at <a href="https://campus.varberg.se/yrkeshogskola/systemutvecklare-net" 
         target="_blank" rel="noopener noreferer">Campus Varberg</a>, a two year program that focus on the .NET platform 
         with courses on agile work methods, front end-development and database creation and administration. <br /><br />
