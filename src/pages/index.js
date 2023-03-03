@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import NavBar from '/components/NavBar';
-import Me from '/components/Me';
-import Footer from '/components/Footer';
-import Github from '/components/Github';
+import NavBar from '../../components/NavBar';
+import Me from '../../components/Me';
+import Footer from '../../components/Footer';
+import Github from '../../components/Github';
 import Projects from 'components/Projects';
 import { ApolloClient, InMemoryCache, gql, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
