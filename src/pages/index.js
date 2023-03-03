@@ -18,7 +18,7 @@ export default function Home({ pinnedItems }) {
       </Head>
       <div className="px-4 sm:px-10 md:px-20 lg:px-40 xl:px-50 2xl:px-80 py-10 min-h-screen">
       <div>
-        <NavBar />
+        <Navbar />
       </div>
       <div className="flex-grow mt-16">
         <Me />
