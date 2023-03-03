@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import NavBar from 'components/NavBar';
+import Navbar from '../../components/Navbar';
 import Me from '../../components/Me';
 import Footer from '../../components/Footer';
 import Github from '../../components/Github';
