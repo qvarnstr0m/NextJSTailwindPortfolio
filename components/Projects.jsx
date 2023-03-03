@@ -5,12 +5,18 @@ const Projects = ({ pinnedItems }) => {
   return (
     <div className="flex flex-wrap w-full md:justify-between md:items-start mt-20">
     <h3 className="text-2xl mr-2 github-link mb-6 justify-start">
-    <a href="https://github.com/qvarnstr0m" target="_blank" rel="noopener noreferrer"  title="These are my pinned projects on Github. Visit my profile for more information 
-    about my projects,">
+    <a href="https://github.com/qvarnstr0m" target="_blank" rel="noopener noreferrer"  title="These are my pinned projects on Github. Visit my profile if you are interested
+    in my other personal / school projects and contributions to open source.">
       Featured projects
     </a>
     <img src="star.png" className="github-icon" />
     </h3>
+    <div className="sm:hidden mb-5">
+      <p>
+        These are my pinned projects on Github. Click to get to their repository on Github for detailed information. Or visit <a href="https://github.com/qvarnstr0m" 
+        target="_blank" rel="noopener noreferrer">my profile</a> if you are interested in my other personal / school projects and contributions to open source. 🙂
+      </p>
+    </div>
     <div className="w-full md:w-3/5">
       <ul>
         {pinnedItems.map((item) =>(

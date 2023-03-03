@@ -11,6 +11,11 @@ const Github = () => {
       </a>
       <img src="github.png" className="github-icon" />
       </h3>
+      <div className="sm:hidden mb-5">
+      <p>
+      These are my latest events on Github. Visit <a href="https://github.com/qvarnstr0m" target="_blank" rel="noopener noreferrer">my profile</a> for more information about my activities. 🙂
+      </p>
+    </div>
       <div className="w-full md:w-3/5">
       <GithubEventsComponent username="qvarnstr0m" />
       </div>
