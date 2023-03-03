@@ -10,7 +10,8 @@ const Me = () => {
         at front end and JavaScript. <br /><br />I am currently studying at <a href="https://campus.varberg.se/yrkeshogskola/systemutvecklare-net" 
         target="_blank" rel="noopener noreferer">Campus Varberg</a>, a two year program that focus on the .NET platform 
         with courses on agile work methods, front end-development and database creation and administration. <br /><br /> 💥 Currently looking for 
-        a internship for the fall of 2023, feel free to <a href="mailto:mqvarnstrom80@gmail.com?subject=Hello!">contact me</a> if this sounds interesting to you or anyone you may know! 💥
+        a internship for the fall of 2023, feel free to contact me at <a href="mailto:mqvarnstrom80@gmail.com?subject=Hello!">mqvarnstrom80@gmail.com</a> if this 
+        sounds interesting to you or anyone you may know! 💥
       </p>
       </div>
       <div className="sm:flex-col shrink-0 sm:ml-auto sm:order-1">
