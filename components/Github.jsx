@@ -10,7 +10,7 @@ const Github = () => {
           target="_blank"
           rel="noopener noreferrer"
           title="These are my latest events on Github. Visit my profile for more information 
-          about my activities."
+          about my developy activities."
         >
           What am i up to?
         </a>
