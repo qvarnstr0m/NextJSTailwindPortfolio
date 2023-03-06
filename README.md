@@ -1,6 +1,6 @@
 ## Personal webpage  
   
-Live: [https://next-js-tailwind-portfolio-iota.vercel.app/](https://next-js-tailwind-portfolio-iota.vercel.app/)  
+Live: [qvarnstrom.dev](https://qvarnstrom.dev/)  
 
 ### Table of contents  
 + Introduction  
@@ -24,5 +24,5 @@ Live: [https://next-js-tailwind-portfolio-iota.vercel.app/](https://next-js-tail
   + Deployment on Vercel
   + Dependencies: Apollo, GraphQL, Moment  
   
-### Deployment & Running the app
+### Deployment & Production
 I found deployment on [Vercel](https://vercel.com/) easy, making changes to this repo also automatically updates the app on the server so maintaining and updating the app couldn't be much easier imo.  
