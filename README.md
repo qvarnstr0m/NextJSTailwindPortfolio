@@ -22,7 +22,7 @@ Live: [https://next-js-tailwind-portfolio-iota.vercel.app/](https://next-js-tail
   + HTML + CSS
   + JavaScript
   + Deployment on Vercel
-  + Apollo & GraphQL dependencie  
+  + Dependencies: Apollo, GraphQL, Moment  
   
 ### Deployment & Running the app
 I found deployment on [Vercel](https://vercel.com/) easy, making changes to this repo also automatically updates the app on the server so maintaining and updating the app couldn't be much easier imo.  
