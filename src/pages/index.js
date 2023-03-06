@@ -16,9 +16,9 @@ export default function Home({ pinnedItems }) {
   return (
     <div>
       <Head>
-        <title>Martin Qvarnström</title>
-        <meta name="description" content=".NET C# JS Developer" />
-        <link rel="icon" href="/favicon.png" />
+        <title>qvarnstrom.dev</title>
+        <meta name="description" content="Developer" />
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
       </Head>
       <div className="px-4 sm:px-10 md:px-20 lg:px-40 xl:px-50 2xl:px-80 py-10 min-h-screen">
         <div>
