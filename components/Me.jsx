@@ -12,11 +12,10 @@ const Me = () => {
       </div>
       <div className="lg:max-w-md mt-12 sm:mt-0">
         <p className="text-start">
-          A problem-solving coder at heart with a passion for clear
-          communication and learning new tech. For the last couple of years I
-          have been working on learning to develop different kinds of
-          applications, mainly using the .NET platform but also recently looking
-          at front-end and JavaScript.
+          A problem-solving coder at heart with a passion for learning new tech.
+          For the last couple of years I have been working on learning to
+          develop different kinds of applications, mainly using the .NET
+          platform but also recently looking at front-end and JavaScript.
         </p>
 
         <p className="text-start mt-6">
@@ -29,14 +28,15 @@ const Me = () => {
             Campus Varberg
           </a>
           , a two year program with focus on the .NET platform including courses
-          on agile work methods, front-end development and database creation and
-          administration to name a few.
+          on C#, agile work methods, front-end development and database creation
+          / administration to name a few.
         </p>
 
         <p className="text-start mt-6">
-          💥 Currently looking for an internship for the fall of 2023, I love
-          working with C#, JS, SQL, React and .NET to name a few, but I also
-          love learning new tech, front or back-end. Feel free to contact me at{" "}
+          💥 I am currently looking for an internship for the fall / winter of
+          2023, I like working with C#, JS, SQL, React and .NET to name a few,
+          but I also love to new tech, front or back-end. Feel free to contact
+          me at{" "}
           <a href="mailto:mqvarnstrom80@gmail.com?subject=Hello!">
             mqvarnstrom80@gmail.com
           </a>{" "}
