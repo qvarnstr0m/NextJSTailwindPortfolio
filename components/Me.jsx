@@ -35,8 +35,8 @@ const Me = () => {
         <p className="text-start mt-6">
           💥 I am currently looking for an internship for the fall / winter of
           2023, I like working with C#, JS, SQL, React and .NET to name a few,
-          but I also love to new tech, front or back-end. Feel free to contact
-          me at{" "}
+          but I also love to learn new tech, front or back-end. Feel free to
+          contact me at{" "}
           <a href="mailto:mqvarnstrom80@gmail.com?subject=Hello!">
             mqvarnstrom80@gmail.com
           </a>{" "}
