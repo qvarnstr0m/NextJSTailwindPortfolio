@@ -39,10 +39,13 @@ const Projects = ({ pinnedItems }) => {
                 {item.node.name}
               </a>
               <p>{item.node.description}</p>
-              <div className="text-xs text-gray-500">
+              <div
+                key={item.node.key + item.node.key}
+                className="text-xs text-gray-500"
+              >
                 Topics:
-                {item.node.repositoryTopics.edges.map((topic) => (
-                  <span key={item.node.id}>&#32;{topic.node.topic.name}</span>
+                {item.node.repositoryTopics.edges.map((topic, index) => (
+                  <span key={index}>&#32;{topic.node.topic.name}</span>
                 ))}
               </div>
             </li>
