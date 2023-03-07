@@ -3,7 +3,7 @@ import React from "react";
 const Me = () => {
   return (
     <div className="md:flex">
-      <div className="sm:flex-col shrink-0 sm:ml-auto sm:order-1">
+      <div className="sm:flex-col shrink-0 sm:ml-auto sm:order-1 md:pl-10">
         <img
           src="me.jpg"
           alt="Profile image"

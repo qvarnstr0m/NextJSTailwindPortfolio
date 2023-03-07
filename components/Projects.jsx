@@ -34,7 +34,7 @@ const Projects = ({ pinnedItems }) => {
       <div className="w-full md:w-3/5">
         <ul>
           {pinnedItems.map((item) => (
-            <li key="{item.node.id}" className="li-pinned">
+            <li key={item.node.id} className="li-pinned">
               <a href={item.node.url} target="_blank" rel="noopener noreferer">
                 {item.node.name}
               </a>
@@ -42,7 +42,7 @@ const Projects = ({ pinnedItems }) => {
               <div className="text-xs text-gray-500">
                 Topics:
                 {item.node.repositoryTopics.edges.map((topic) => (
-                  <span key={topic.node.id}>&#32;{topic.node.topic.name}</span>
+                  <span key={item.node.id}>&#32;{topic.node.topic.name}</span>
                 ))}
               </div>
             </li>
