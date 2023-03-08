@@ -10,7 +10,7 @@ const Me = () => {
           className="profile-image md:max-w-xs lg:max-w-sm"
         />
       </div>
-      <div className="lg:max-w-md mt-12 sm:mt-0">
+      <div className="lg:max-w-md mt-12 md:mt-0">
         <p className="text-start">
           A problem-solving coder at heart with a passion for learning new tech.
           For the last couple of years I have been working on learning to
@@ -30,6 +30,12 @@ const Me = () => {
           , a two year program with focus on the .NET platform including courses
           on C#, agile work methods, front-end development and database creation
           / administration to name a few.
+        </p>
+
+        <p className="text-start mt-6">
+          In my spare time I try to run a few times a week and spend time with
+          my family, preferably outdoors. Cooking is also a little hobby of
+          mine.
         </p>
 
         <p className="text-start mt-6">
