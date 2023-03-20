@@ -14,12 +14,13 @@ class GithubEvents {
   async render(container) {
     const events = await this.fetchEvents();
     const ul = document.createElement("ul");
-    //ul.classList.add('lg:flex'); //To make the list stack horisontally
     ul.classList.add("text-left");
-    // Clear the container before appending the list to avoid stacking multiple times
-    container.innerHTML = "";
 
-    container.appendChild(ul);
+    // Check if container is defined before modifying its contents
+    if (container) {
+      container.innerHTML = "";
+      container.appendChild(ul);
+    }
 
     events.forEach((event) => {
       let eventType = "";
