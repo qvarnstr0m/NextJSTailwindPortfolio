@@ -31,9 +31,7 @@ export default function Home({ pinnedItems }) {
         <div className="flex-grow mt-16">
           <Projects pinnedItems={pinnedItems} />
         </div>
-        <div className="flex-grow mt-16">
-          <Github />
-        </div>
+        <div className="flex-grow mt-16"></div>
         <div className="mt-auto">
           <Footer />
         </div>

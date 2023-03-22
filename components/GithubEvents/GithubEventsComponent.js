@@ -29,7 +29,7 @@ function GithubEventsComponent({ username }) {
   if (error) {
     return <div>Something went wrong: {error.message}</div>;
   }
-
+  console.log(containerRef);
   return <div ref={containerRef}></div>;
 }
 
