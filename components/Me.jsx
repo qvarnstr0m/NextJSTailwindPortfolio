@@ -47,11 +47,11 @@ const Me = () => {
           >
             insynskollen.se
           </a>{" "}
-          and is fullstack web app built with React, .NET Web Api, MySql and a
-          web scraper written in C#. If you are interested in the code, version
-          control or my planning, get in touch! Everything is available on
-          GitHub but as private repositories. There is also a scrum board on
-          Trello. 💥
+          and is a fullstack web app / SMS service built with React, .NET Web
+          Api, MySql and a webscraper written in C#. If you are interested in
+          the code, version control or my planning, get in touch! Everything is
+          available on GitHub but as private repositories. There is also a scrum
+          board on Trello where I have organized my workflow. 💥
         </p>
       </div>
     </div>
