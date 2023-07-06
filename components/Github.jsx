@@ -14,7 +14,6 @@ const Github = () => {
         >
           What am i up to?
         </a>
-        <img src="github.png" className="github-icon" />
       </h3>
       <div className="sm:hidden mb-5">
         <p>

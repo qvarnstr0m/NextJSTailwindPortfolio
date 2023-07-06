@@ -13,7 +13,6 @@ const Projects = ({ pinnedItems }) => {
         >
           Featured projects
         </a>
-        <img src="star.png" className="github-icon" />
       </h3>
 
       <div className="sm:hidden mb-5">
