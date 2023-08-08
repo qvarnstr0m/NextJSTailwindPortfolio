@@ -54,7 +54,7 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          💥 Other that that I am now in the process of learning .NET Blazor,
+          💥 Furthermore I am currently in the process of learning .NET Blazor,
           ASP.NET Core Web Api usning C# and Entity Framework Core with MySQL
           and XUnit for unit testing. This through a personal project that I am
           working on which will be a simple CMS for smaller company websites.
