@@ -39,7 +39,7 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          💥 My latest side project is live at{" "}
+          🚀 My latest side project is live at{" "}
           <a
             href="https://www.insynskollen.se"
             target="_blank"
@@ -49,8 +49,16 @@ const Me = () => {
           </a>{" "}
           and is a fullstack web app / SMS service built with React, .NET Web
           Api, MySql and a webscraper written in C#. If you are interested in
-          the code, version control or my planning, check out my github or get 
-          in touch! 💥
+          the code, version control or my planning, check out my github or get
+          in touch! 🚀
+        </p>
+
+        <p className="text-start mt-6">
+          💥 Other that that I am now in the process of learning .NET Blazor,
+          ASP.NET Core Web Api usning C# and Entity Framework Core with MySQL
+          and XUnit for unit testing. This through a personal project that I am
+          working on which will be a simple CMS for smaller company websites.
+          Get in touch if you want to know more! 💥
         </p>
       </div>
     </div>
