@@ -29,7 +29,15 @@ const Me = () => {
           </a>
           , a two year program with focus on the .NET platform including courses
           on C#, agile work methods, front-end development and database creation
-          / administration to name a few.
+          / administration to name a few. Right now doing my internship at{" "}
+          <a
+            href="https://www.effectsoft.se"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            Effectsoft
+          </a>{" "}
+          in Halmstad.
         </p>
 
         <p className="text-start mt-6">
