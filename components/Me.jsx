@@ -60,14 +60,6 @@ const Me = () => {
           the code, version control or my planning, check out my github or get
           in touch! 🚀
         </p>
-
-        <p className="text-start mt-6">
-          💥 I am also currently in the process of developing a fullstack web
-          app using .NET Blazor, ASP.NET Core Web Api, Entity Framework Core,
-          MySQL and XUnit for unit testing. This is personal project which will
-          be a simple CMS for smaller company websites. Contact for details and
-          repo! 💥
-        </p>
       </div>
     </div>
   );
