@@ -13,9 +13,9 @@ const Me = () => {
       <div className="lg:max-w-md mt-12 md:mt-0">
         <p className="text-start">
           A problem-solving coder at heart with a passion for learning new tech.
-          For the last couple of years I have been busy learning the .NET stack,
-          mainly C# and ASP.NET Core web development. I have also been working
-          with React, Node.js, MySql,
+          For the last few of years I have been busy learning the .NET stack,
+          mainly C# and ASP.NET Core for web development. I have also been
+          working with React, Node.js, MySql, and a little bit of Elixir.
         </p>
 
         <p className="text-start mt-6">
@@ -42,8 +42,8 @@ const Me = () => {
 
         <p className="text-start mt-6">
           In my spare time I try to run a few times a week and spend time with
-          my family, preferably outdoors. Cooking is also a little hobby of
-          mine.
+          my two daughters, preferably outdoors. Cooking is also a little hobby
+          of mine, I used to be a chef way back.
         </p>
 
         <p className="text-start mt-6">
