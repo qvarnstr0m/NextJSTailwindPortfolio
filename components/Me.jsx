@@ -13,9 +13,9 @@ const Me = () => {
       <div className="lg:max-w-md mt-12 md:mt-0">
         <p className="text-start">
           A problem-solving coder at heart with a passion for learning new tech.
-          For the last couple of years I have been working on learning to
-          develop different kinds of applications, mainly using the .NET
-          platform but also recently looking at front-end and JavaScript.
+          For the last couple of years I have been busy learning the .NET stack,
+          mainly C# and ASP.NET Core web development. I have also been working
+          with React, Node.js, MySql,
         </p>
 
         <p className="text-start mt-6">
