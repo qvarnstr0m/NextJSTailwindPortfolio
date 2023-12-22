@@ -15,7 +15,7 @@ const Me = () => {
           A problem-solving coder at heart with a passion for learning new tech.
           For the last few of years I have been busy learning the .NET stack,
           mainly C# and ASP.NET Core for web development. I have also been
-          working with React, Node.js, MySql, and a little bit of Elixir.
+          working with React, Node.js, MySql, Entity Framework and Blazor.
         </p>
 
         <p className="text-start mt-6">
