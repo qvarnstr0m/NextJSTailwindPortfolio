@@ -7,14 +7,6 @@ const Footer = () => {
         <ul className="footer-links">
           <li>
             <a
-              href="mailto:mqvarnstrom80@gmail.com?subject=Hello!"
-              title="Say hello!"
-            >
-              Email
-            </a>
-          </li>
-          <li>
-            <a
               href="https://www.github.com/qvarnstr0m/"
               target="_blank"
               rel="noopener noreferrer"
