@@ -19,17 +19,7 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          I am currently studying at{" "}
-          <a
-            href="https://campus.varberg.se/yrkeshogskola/systemutvecklare-net"
-            target="_blank"
-            rel="noopener noreferer"
-          >
-            Campus Varberg
-          </a>
-          , a two year program with focus on the .NET platform including courses
-          on C#, agile work methods, front-end development and database creation
-          / administration to name a few. Right now doing my internship at{" "}
+          I am working at{" "}
           <a
             href="https://www.effectsoft.se"
             target="_blank"
@@ -37,7 +27,7 @@ const Me = () => {
           >
             Effectsoft
           </a>{" "}
-          in Halmstad.
+          in Halmstad as a Software Consultant, mainly with .NET.
         </p>
 
         <p className="text-start mt-6">
