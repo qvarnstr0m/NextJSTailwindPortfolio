@@ -6,6 +6,9 @@ const Footer = () => {
       <footer>
         <ul className="footer-links">
           <li>
+            <a href="mailto:mqvarnstrom80@gmail.com">Email</a>
+          </li>
+          <li>
             <a
               href="https://www.github.com/qvarnstr0m/"
               target="_blank"
