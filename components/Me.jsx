@@ -19,7 +19,15 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          I am working at{" "}
+          In June of 2024 I finished my 2 years at{" "}
+          <a
+            href="https://campus.varberg.se/yrkeshogskola/systemutvecklare-net"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            Campus Varberg
+          </a>{" "}
+          System Developer program, today I am currently working at{" "}
           <a
             href="https://www.effectsoft.se"
             target="_blank"
@@ -27,13 +35,13 @@ const Me = () => {
           >
             Effectsoft
           </a>{" "}
-          in Halmstad as a Software Consultant, mainly with .NET.
+          in Halmstad as a Software Consultant, where I did my internship,
+          mainly with .NET web applications, both front and back end.
         </p>
 
         <p className="text-start mt-6">
           In my spare time I try to run a few times a week and spend time with
-          my two daughters, preferably outdoors. Cooking is also a little hobby
-          of mine, I used to be a chef way back.
+          my two daughters, preferably outdoors.
         </p>
 
         <p className="text-start mt-6">
