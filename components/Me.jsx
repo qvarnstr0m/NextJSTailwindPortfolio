@@ -5,17 +5,17 @@ const Me = () => {
     <div className="md:flex">
       <div className="sm:flex-col shrink-0 sm:ml-auto sm:order-1 md:pl-10">
         <img
-          src="me.jpg"
+          src="me2.jpeg"
           alt="Profile image"
           className="profile-image md:max-w-xs lg:max-w-sm"
         />
       </div>
-      <div className="lg:max-w-md mt-12 md:mt-0">
+      <div className="lg:max-w-xl mt-12 md:mt-0">
         <p className="text-start">
           A problem-solving coder at heart with a passion for learning new tech.
           For the last few of years I have been busy learning the .NET stack,
-          mainly C# and ASP.NET Core for web development. I have also been
-          working with React, Node.js, MySql, Entity Framework and Blazor.
+          mainly C# and .NET web development. I have also been working with
+          React, Node.js, MySql, Entity, Blazor, Azure Functions and some CI/CD.
         </p>
 
         <p className="text-start mt-6">
@@ -36,7 +36,7 @@ const Me = () => {
             Effectsoft
           </a>{" "}
           in Halmstad as a Software Consultant, where I did my internship,
-          mainly with .NET web applications, both front and back end.
+          mainly with .NET web applications, both front and backend.
         </p>
 
         <p className="text-start mt-6">
