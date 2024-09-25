@@ -5,7 +5,7 @@ const Me = () => {
     <div className="md:flex">
       <div className="sm:flex-col shrink-0 sm:ml-auto sm:order-1 md:pl-10">
         <img
-          src="me.jpeg"
+          src="me.jpg"
           alt="Profile image"
           className="profile-image md:max-w-xs lg:max-w-sm"
         />
