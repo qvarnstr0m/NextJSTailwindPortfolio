@@ -15,8 +15,8 @@ const Me = () => {
           A problem-solving coder with a passion for learning new technologies.
           Over the past few years, I have been focused on mastering the .NET
           stack, primarily C# and web development with Blazor. Along the way,
-          I’ve also gained experience with React, databases, EF Core, Azure, and
-          some CI/CD, either through work or personal projects.
+          I’ve also gained experience with React, ABP Framework, databases, EF
+          Core, Azure, and some CI/CD, either through work or personal projects.
         </p>
 
         <p className="text-start mt-6">
@@ -37,14 +37,16 @@ const Me = () => {
             Effectsoft
           </a>{" "}
           in Halmstad as a Software Consultant, where I did my internship,
-          mainly with .NET web applications, both front and backend.
+          mainly with .NET web applications, both front and backend, with
+          projects centered around multitenancy, system integrations, and
+          business platforms.
         </p>
 
         <p className="text-start mt-6">
           In my spare time I run a few times a week, climb and spend time with
           my two daughters, preferably outdoors. When I get the time I try to
           broaden my horizon as a developer with new projects, going to meetups
-          and just trying new stuff.
+          and just trying new tech.
         </p>
 
         <p className="text-start mt-6">
