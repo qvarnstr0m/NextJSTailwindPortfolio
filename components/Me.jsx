@@ -12,10 +12,11 @@ const Me = () => {
       </div>
       <div className="lg:max-w-xl mt-12 md:mt-0">
         <p className="text-start">
-          A problem-solving coder at heart with a passion for learning new tech.
-          For the last few of years I have been busy learning the .NET stack,
-          mainly C# and .NET web development. I have also been working with
-          React, Node.js, MySql, Entity, Blazor, Azure Functions and some CI/CD.
+          A problem-solving coder with a passion for learning new technologies.
+          Over the past few years, I have been focused on mastering the .NET
+          stack, primarily C# and web development with Blazor. Along the way,
+          I’ve also gained experience with React, databases, EF Core, Azure, and
+          some CI/CD, either through work or personal projects.
         </p>
 
         <p className="text-start mt-6">
@@ -40,8 +41,10 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          In my spare time I try to run a few times a week and spend time with
-          my two daughters, preferably outdoors.
+          In my spare time I run a few times a week, climb and spend time with
+          my two daughters, preferably outdoors. When I get the time I try to
+          broaden my horizon as a developer with new projects, going to meetups
+          and just trying new stuff.
         </p>
 
         <p className="text-start mt-6">
