@@ -31,8 +31,8 @@ const Me = () => {
             rel="noopener noreferer"
           >
             Campus Varberg
-          </a>
-          .
+          </a>{" "}
+          system developer program.
         </p>
 
         <p className="text-start mt-6">

@@ -2,8 +2,9 @@ import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Me from "../../components/Me";
 import Footer from "../../components/Footer";
-import Github from "../../components/Github";
 import Projects from "../../components/Projects";
+import GithubEventsGraphQL, { fetchGithubCommits } from "../../components/GithubEventsGraphQL";
+
 import {
   ApolloClient,
   InMemoryCache,
@@ -12,7 +13,7 @@ import {
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
-export default function Home({ pinnedItems }) {
+export default function Home({ pinnedItems, commits }) {
   return (
     <div>
       <Head>
@@ -22,9 +23,7 @@ export default function Home({ pinnedItems }) {
         <link rel="apple-touch-icon" href="/favicon.png" />
       </Head>
       <div className="px-4 sm:px-10 md:px-20 lg:px-40 xl:px-50 2xl:px-80 py-10 min-h-screen">
-        <div>
-          <Navbar />
-        </div>
+        <Navbar />
         <div className="flex-grow mt-16">
           <Me />
         </div>
@@ -32,11 +31,9 @@ export default function Home({ pinnedItems }) {
           <Projects pinnedItems={pinnedItems} />
         </div>
         <div className="flex-grow mt-16">
-          <Github />
+          <GithubEventsGraphQL commits={commits} />
         </div>
-        <div className="mt-auto">
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </div>
   );
@@ -94,9 +91,14 @@ export async function getStaticProps() {
   });
 
   const pinnedItems = data.viewer.pinnedItems.edges;
+
+  const commits = await fetchGithubCommits("qvarnstr0m");
+
   return {
     props: {
       pinnedItems,
+      commits,
     },
-  };
+    revalidate: 900,
+}
 }
