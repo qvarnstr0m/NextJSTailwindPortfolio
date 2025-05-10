@@ -1,5 +1,6 @@
 import React from "react";
 import { gql } from "@apollo/client";
+import { client } from "../lib/apolloClient";
 
 const GithubEventsGraphQL = ({ login = "qvarnstr0m", commits = [] }) => {
   return (
