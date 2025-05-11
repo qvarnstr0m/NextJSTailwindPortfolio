@@ -47,6 +47,16 @@ const Me = () => {
           code practices, continuous learning and just having an open mindset in
           general.
         </p>
+        <p className="text-start mt-6">
+          In my spare time I run a few times a week, climb and spend time with
+          my two daughters, preferably outdoors. When I get the time I try to
+          broaden my horizon as a developer with new projects and going to
+          meetups.
+        </p>
+        <p className="text-start mt-6">
+          Feel free to contact me about any coding related subjects I might be
+          interested in.
+        </p>
       </div>
     </div>
   );
