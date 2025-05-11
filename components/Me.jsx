@@ -24,7 +24,7 @@ const Me = () => {
           experience from the transportation and hospitality sectors. After
           adopting internet early I started building websites around the turn of
           the millennium, lost interest, and later found my way back to
-          programming around 2020. In June Of 2024 I finished my two years at{" "}
+          programming around 2020. In June of 2024 I finished my two years at{" "}
           <a
             href="https://campus.varberg.se/yrkeshogskola/systemutvecklare-net"
             target="_self"
@@ -37,9 +37,9 @@ const Me = () => {
 
         <p className="text-start mt-6">
           I mainly work with fullstack web-development using tools from the .NET
-          platform, but I aspire to be agnostic about the available tools and
-          platforms. I try to play around with tools and languages with personal
-          projects whenever possible.
+          platform, but I aspire to be agnostic about languages and tools. I try
+          to play around with tools and languages with personal projects
+          whenever possible.
         </p>
         <p className="text-start mt-6">
           However, there are a few principles that I try to stick to: writing
