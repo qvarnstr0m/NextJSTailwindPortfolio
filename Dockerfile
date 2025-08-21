@@ -1,9 +1,16 @@
+# syntax=docker/dockerfile:1.6
+
+# -------- Deps --------
+FROM node:20-alpine AS deps
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+
 # -------- Builder --------
 FROM node:20-alpine AS builder
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
-COPY package*.json ./
-RUN npm ci
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN npm run build
 
@@ -11,26 +18,17 @@ RUN npm run build
 FROM node:20-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV=production
+ENV PORT=3000
 ENV NEXT_TELEMETRY_DISABLED=1
-# Standalone-layout från Next
+
+# Standalone-output från Next (innehåller server.js + minimala node_modules)
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/public ./public
+
+# Kör som icke-root
+RUN addgroup -S nextjs && adduser -S nextjs -G nextjs
+USER nextjs
+
 EXPOSE 3000
 CMD ["node", "server.js"]
-
-
-# Non-root user
-RUN addgroup -g 1001 -S nodejs && adduser -S nextjs -u 1001 -G nodejs
-
-# Install only prod deps for runtime
-COPY --from=builder /app/package.json /app/package-lock.json ./
-RUN npm ci --omit=dev
-
-# Copy build artifacts and public assets
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
-
-USER nextjs
-EXPOSE ${PORT}
-CMD ["npm", "run", "start"]

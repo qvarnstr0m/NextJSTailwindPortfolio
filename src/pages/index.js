@@ -39,44 +39,45 @@ export default function Home({ pinnedItems, commits }) {
   );
 }
 
-export async function getStaticProps() {
-  const httpLink = createHttpLink({
-    uri: "https://api.github.com/graphql",
-  });
+// ⬇️ BYT från SSG till SSR
+export async function getServerSideProps(ctx) {
+  const token = process.env.GITHUB_ACCESS_TOKEN;
 
-  const authLink = setContext((_, { headers }) => {
-    return {
-      headers: {
-        ...headers,
-        authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`,
-      },
-    };
-  });
+  // Ingen token i runtime? Visa sidan utan data (men krascha inte)
+  if (!token) {
+    return { props: { pinnedItems: [], commits: [] } };
+  }
+
+  const httpLink = createHttpLink({ uri: "https://api.github.com/graphql" });
+  const authLink = setContext((_, { headers }) => ({
+    headers: { ...headers, authorization: `Bearer ${token}` },
+  }));
 
   const client = new ApolloClient({
     link: authLink.concat(httpLink),
     cache: new InMemoryCache(),
   });
 
-  const { data } = await client.query({
-    query: gql`
-      {
-        viewer {
-          login
-          pinnedItems(first: 6) {
-            totalCount
-            edges {
-              node {
-                ... on Repository {
-                  id
-                  name
-                  description
-                  url
-                  repositoryTopics(first: 10) {
-                    edges {
-                      node {
-                        topic {
-                          name
+  try {
+    const { data } = await client.query({
+      query: gql`
+        {
+          viewer {
+            pinnedItems(first: 6) {
+              totalCount
+              edges {
+                node {
+                  ... on Repository {
+                    id
+                    name
+                    description
+                    url
+                    repositoryTopics(first: 10) {
+                      edges {
+                        node {
+                          topic {
+                            name
+                          }
                         }
                       }
                     }
@@ -86,19 +87,15 @@ export async function getStaticProps() {
             }
           }
         }
-      }
-    `,
-  });
+      `,
+    });
 
-  const pinnedItems = data.viewer.pinnedItems.edges;
+    const pinnedItems = data?.viewer?.pinnedItems?.edges ?? [];
+    const commits = await fetchGithubCommits("qvarnstr0m"); // behåll som du har
 
-  const commits = await fetchGithubCommits("qvarnstr0m");
-
-  return {
-    props: {
-      pinnedItems,
-      commits,
-    },
-    revalidate: 900,
-}
+    return { props: { pinnedItems, commits } };
+  } catch (e) {
+    console.error("GitHub query failed", e);
+    return { props: { pinnedItems: [], commits: [] } };
+  }
 }
