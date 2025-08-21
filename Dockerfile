@@ -1,10 +1,9 @@
 # -------- Builder --------
 FROM node:20-alpine AS builder
 WORKDIR /app
-
-# Install deps (with dev deps) and build
-COPY package.json package-lock.json ./
-RUN npm ci --include=dev
+ENV NEXT_TELEMETRY_DISABLED=1
+COPY package*.json ./
+RUN npm ci
 COPY . .
 RUN npm run build
 
@@ -12,9 +11,14 @@ RUN npm run build
 FROM node:20-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV=production
-# default; override at runtime with -e PORT=xxxx or .env
-ENV PORT=3000
 ENV NEXT_TELEMETRY_DISABLED=1
+# Standalone-layout från Next
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/public ./public
+EXPOSE 3000
+CMD ["node", "server.js"]
+
 
 # Non-root user
 RUN addgroup -g 1001 -S nodejs && adduser -S nextjs -u 1001 -G nodejs
