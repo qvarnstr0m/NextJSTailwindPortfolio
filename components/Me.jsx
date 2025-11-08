@@ -58,7 +58,7 @@ const Me = () => {
             target="_self"
             rel="noopener noreferer"
           >
-            give it a read if you like.
+            give it a read.
           </a>
         </p>
         <p className="text-start mt-6">
