@@ -51,7 +51,15 @@ const Me = () => {
           In my spare time I run a few times a week, climb and spend time with
           my two daughters, preferably outdoors. When I get the time I try to
           broaden my horizon as a developer with new projects and going to
-          meetups.
+          meetups. I manage a simple blog where I try to keep track what I learn
+          in my software development endeavours,{" "}
+          <a
+            href="https://qvarnstr0m-blog.spwnr.io/"
+            target="_self"
+            rel="noopener noreferer"
+          >
+            give it a read if you like.
+          </a>
         </p>
         <p className="text-start mt-6">
           Feel free to contact me about any coding related subjects I might be
