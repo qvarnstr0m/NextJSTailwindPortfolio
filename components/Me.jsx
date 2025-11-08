@@ -52,7 +52,7 @@ const Me = () => {
           my two daughters, preferably outdoors. When I get the time I try to
           broaden my horizon as a developer with new projects and going to
           meetups. I manage a simple blog where I try to keep track what I learn
-          in my software development endeavours,{" "}
+          in my software development endeavors,{" "}
           <a
             href="https://qvarnstr0m-blog.spwnr.io/"
             target="_self"
