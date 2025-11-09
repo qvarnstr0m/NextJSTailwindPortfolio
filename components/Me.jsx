@@ -36,10 +36,18 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          I mainly work with fullstack web-development using tools from the .NET
-          platform, but I aspire to be agnostic about languages and tools. I try
-          to play around with tools and languages with personal projects
-          whenever possible.
+          I mainly work with fullstack web-development with the .NET platform,
+          but I aspire to be agnostic about languages and tools. I try to use
+          different tech and languages while working on personal projects
+          whenever possible. I manage a simple blog where I try to keep track
+          what I learn in my software development endeavors,{" "}
+          <a
+            href="https://qvarnstr0m-blog.spwnr.io/"
+            target="_self"
+            rel="noopener noreferer"
+          >
+            give it a read.
+          </a>
         </p>
         <p className="text-start mt-6">
           However, there are a few principles that I try to stick to: writing
@@ -51,15 +59,7 @@ const Me = () => {
           In my spare time I run a few times a week, climb and spend time with
           my two daughters, preferably outdoors. When I get the time I try to
           broaden my horizon as a developer with new projects and going to
-          meetups. I manage a simple blog where I try to keep track what I learn
-          in my software development endeavors,{" "}
-          <a
-            href="https://qvarnstr0m-blog.spwnr.io/"
-            target="_self"
-            rel="noopener noreferer"
-          >
-            give it a read.
-          </a>
+          meetups.
         </p>
         <p className="text-start mt-6">
           Feel free to contact me about any coding related subjects I might be
