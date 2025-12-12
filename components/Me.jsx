@@ -36,11 +36,11 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          I mainly work with fullstack web-development with the .NET platform,
+          I mainly work with fullstack web-development using the .NET platform,
           but I aspire to be agnostic about languages and tools. I try to use
-          different tech and languages while working on personal projects
-          whenever possible. I manage a simple blog where I try to keep track
-          what I learn in my software development endeavors,{" "}
+          different tech and interesting languages while working on personal
+          projects whenever possible. I manage a simple blog where I try to keep
+          track what I learn in my software development endeavors,{" "}
           <a
             href="https://qvarnstr0m-blog.spwnr.io/"
             target="_self"
@@ -49,11 +49,15 @@ const Me = () => {
             give it a read.
           </a>
         </p>
+
         <p className="text-start mt-6">
-          However, there are a few principles that I try to stick to: writing
-          readable and testable code, delivering value to users, applying clean
-          code practices, continuous learning and just having an open mindset in
-          general.
+          I also run my own independent web hosting service,{" "}
+          <a href="https://spwnr.io/" target="_self" rel="noopener noreferer">
+            spwnr.io,
+          </a>{" "}
+          where the aforementioned blog and this website is hosted, if you're
+          interested in indie European hosting or want to collaborate in any way
+          feel free to get in touch.
         </p>
         <p className="text-start mt-6">
           In my spare time I run a few times a week, climb and spend time with
