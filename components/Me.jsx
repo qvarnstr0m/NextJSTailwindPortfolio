@@ -51,21 +51,6 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          I also run my own independent web hosting service,{" "}
-          <a href="https://spwnr.io/" target="_self" rel="noopener noreferer">
-            spwnr.io,
-          </a>{" "}
-          where the aforementioned blog and this website is hosted, if you're
-          interested in indie European hosting or want to collaborate in any way
-          feel free to get in touch.
-        </p>
-        <p className="text-start mt-6">
-          In my spare time I run a few times a week, climb and spend time with
-          my two daughters, preferably outdoors. When I get the time I try to
-          broaden my horizon as a developer with new projects and going to
-          meetups.
-        </p>
-        <p className="text-start mt-6">
           Feel free to contact me about any coding related subjects I might be
           interested in.
         </p>
