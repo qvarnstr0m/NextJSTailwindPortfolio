@@ -51,7 +51,7 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          I also run my own independent web hosting service,{" "}
+          I'm also running a small experimental web hosting service,{" "}
           <a href="https://spwnr.io/" target="_self" rel="noopener noreferer">
             spwnr.io,
           </a>{" "}
