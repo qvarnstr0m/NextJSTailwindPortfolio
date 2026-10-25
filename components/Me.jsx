@@ -42,7 +42,7 @@ const Me = () => {
           projects whenever possible. I manage a simple blog where I try to keep
           track what I learn in my software development endeavors,{" "}
           <a
-            href="https://qvarnstr0m-blog.spwnr.io/"
+            href="https://qvarnstr0m-blog.lillamolnet.se/"
             target="_self"
             rel="noopener noreferer"
           >
@@ -51,9 +51,9 @@ const Me = () => {
         </p>
 
         <p className="text-start mt-6">
-          I'm also running a small experimental web hosting service,{" "}
-          <a href="https://spwnr.io/" target="_self" rel="noopener noreferer">
-            spwnr.io,
+          I'm also running a small container platform,{" "}
+          <a href="https://lillamolnet.se/" target="_self" rel="noopener noreferer">
+            lillamolnet.se,
           </a>{" "}
           where the aforementioned blog and this website is hosted, if you're
           interested in indie European hosting or want to collaborate in any way
